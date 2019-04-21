@@ -10,7 +10,7 @@ class Person
     #binding.pry 
     attributes.each do |key, value|
       binding.pry 
-      self.send(("#{key}="), value))
+      self.send(("#{key}="), value)
       binding.pry 
     end 
   end
