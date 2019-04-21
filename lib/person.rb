@@ -9,9 +9,9 @@ class Person
     #attributes.each {|key, value| self.send(("#{key}="), value)}
     #binding.pry 
     attributes.each do |key, value|
-      binding.pry 
+      #binding.pry 
       self.send(("#{key}="), value)
-      binding.pry 
+      #binding.pry 
     end 
   end
 end
